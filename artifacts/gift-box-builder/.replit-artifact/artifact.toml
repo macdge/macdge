@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "متجر الهدايا المخصص"
+version = "1.0.0"
+id = "artifacts/gift-box-builder"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 24212
+
+[services.development]
+run = "pnpm --filter @workspace/gift-box-builder run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/gift-box-builder", "run", "build" ]
+publicDir = "artifacts/gift-box-builder/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "24212"
+BASE_PATH = "/"
