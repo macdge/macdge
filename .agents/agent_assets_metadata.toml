@@ -1,0 +1,62 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "lzH9QdcxPka_cb1KldBz5"
+uri = "file://artifacts/gift-box-builder/src/assets/packaging-wood.png"
+type = "image"
+title = "elegant wood gift box"
+
+[[generated]]
+id = "-6IDKykoPTwNPz3CTPa_k"
+uri = "file://artifacts/gift-box-builder/src/assets/packaging-cardboard.png"
+type = "image"
+title = "cardboard gift box"
+
+[[generated]]
+id = "7TCMGSY2zAIJIA_Lg7PVL"
+uri = "file://artifacts/gift-box-builder/src/assets/packaging-fabric.png"
+type = "image"
+title = "fabric wrap gift"
+
+[[generated]]
+id = "lQfod596SnEIuVBYZdQFM"
+uri = "file://artifacts/gift-box-builder/src/assets/product-mug.png"
+type = "image"
+title = "handmade ceramic mug"
+
+[[generated]]
+id = "fQcWtiYnzi7qtw9EZ2_eG"
+uri = "file://artifacts/gift-box-builder/src/assets/product-chocolate.png"
+type = "image"
+title = "luxury chocolate box"
+
+[[generated]]
+id = "L6pxaOGX5AmVIoFcluxpU"
+uri = "file://artifacts/gift-box-builder/src/assets/product-candle.png"
+type = "image"
+title = "scented candle in glass"
+
+[[generated]]
+id = "j_-82fYc8IRExrV0WpgP7"
+uri = "file://artifacts/gift-box-builder/src/assets/product-notebook.png"
+type = "image"
+title = "leather notebook"
+
+[[generated]]
+id = "aqn--BlkZ8JI8LG-PXwEU"
+uri = "file://artifacts/gift-box-builder/src/assets/product-pen.png"
+type = "image"
+title = "gold pen"
+
+[[generated]]
+id = "lUFqnNHGaKBQrayoFTfQm"
+uri = "file://artifacts/gift-box-builder/src/assets/product-soap.png"
+type = "image"
+title = "artisan soap bar"
+
+[[generated]]
+id = "YBx93JMznoou9AJUmgySD"
+uri = "file://artifacts/gift-box-builder/src/assets/product-coffee.png"
+type = "image"
+title = "coffee bean pouch"
